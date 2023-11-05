@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jia coffee</title>
-    <!-- <link rel="stylesheet" href="/style.css"> -->
-    <style>
-        /* Resetting some defaults */
+/* Resetting some defaults */
 * {
     margin: 0;
     padding: 0;
@@ -101,24 +93,3 @@ nav ul li a {
         flex-direction: column;
     }
 }
-
-    </style>
-</head>
-<body>
-    <header>
-        <div class="navWrapper" id="home">
-            <div class=" clearfix">
-                <h2 class="companyName">Coffee Andgi</h2>
-                <nav class="mainNav clearfix">
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about" class="smoothScroll">About</a></li>
-                        <li><a href="#work" class="smoothScroll">Products</a></li>
-                        <li><a href="#contact" class="smoothScroll">Contact</a></li>
-                    </ul>
-                </nav>
-            </div><!-- end .innerWrapper -->
-        </div><!-- end of .navWrapper -->
-    </header>
-</body>
-</html>
